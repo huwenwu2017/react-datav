@@ -13,7 +13,6 @@ const Adaptive = lazy(() => import("../Adaptive/index"));
 export default function index() {
   return (
     <Adaptive>
-      
         <BorderBox11 title="香蕉麻花皮测试" class={style.boxa}>
           <div className={style.box1}>
             <div>
