@@ -96,8 +96,11 @@ const Home8 = lazy(() => import("../home8/Index"));
 const Adaptive = lazy(() => import("../Adaptive/index"));
 export default function index() {
   return (
+    <!--Adaptive兼容组件-->
     <Adaptive>
+        <!--BorderBox11边框组件-->
         <BorderBox11 title="香蕉麻花皮测试" class={style.boxa}>
+            <!--以下是内容-->
           <div className={style.box1}>
             <div>
               <div className={style.box2}>
